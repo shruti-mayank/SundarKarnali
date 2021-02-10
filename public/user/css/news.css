@@ -1,0 +1,90 @@
+/*breadcrumb*/
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #58040D;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/*news card*/
+#news .card{
+	background-color: #f8f8f8;
+}
+
+/*top icons*/
+#news .col-md-4 i{
+	color: #09151F;
+}
+
+#news .col-md-4 i:hover{
+	color: #083C69;
+	cursor: pointer;
+}
+
+/*news banner*/
+#banner{
+	background-color: #DDDDDD;
+}
+
+#banner a{
+	text-decoration: none;
+}
+
+#banner .col-8 a h6{
+	font-size: 14px;
+	color: #000;
+}
+
+#banner .col-8 a h6:hover{
+	color: #383535;
+}
+
+/*banner hashtag*/
+#hashtag{
+	background-color: #DDDDDD;
+}
+
+#hashtag button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#hashtag button{
+  background-color: #2D71AB;
+  border: 1px solid #2D71AB;
+  padding: 10px 15px 5px 15px;
+}
+
+#hashtag button:hover{
+  background-color: #B32240;
+  border: 1px solid #B32240;
+  padding: 10px 15px 5px 15px;
+  cursor: pointer;
+}
+
+#hashtag button:focus{
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

@@ -1,0 +1,527 @@
+*{
+	box-sizing: border-box;
+}
+
+ul{
+    padding-inline-start: 0px!important;
+}
+
+#heading:hover{
+  cursor: pointer;
+  color: #2D71AB;
+}
+
+/*top logo*/
+#logo{
+	padding: 20px;
+}
+.logo-img{
+	background-image: url("/user/sundar-karnali.jpg");
+  background-position:center;
+  height: 100px;
+  width: 90px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  overflow: hidden;
+}
+
+nav{
+	background-color: #575B5E;
+}
+
+nav ul li a{
+	color: #fff;
+	padding: 12px!important;
+  display: block;
+}
+
+nav ul li.active a{
+	background-color: #EF233C!important;
+
+}
+
+nav ul li a:hover, nav ul li a:focus{
+  text-decoration: none;
+  color: white;
+  background-color: #1E1F1F;
+}
+
+#navbar .search-container {
+  float: right;
+  padding-left: 10px;
+}
+
+#navbar input[type=search] {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+}
+
+#navbar .search-container button {
+  float: right;
+  padding: 5px;
+  background: #ddd;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+#navbar .search-container button:hover {
+  background: #ccc;
+}
+
+#navbar input[type=text]:focus, #navbar .search-container button:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*Responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #navbar .search-container button{
+    float: left;
+  }
+}
+
+/*Ad*/
+#ad{
+  background-color: #cecece;
+  border: 1px solid #f8f8f8;
+  padding: 25px;
+  font-family: arial narrow;
+  font-size: 20px;
+}
+
+/*highlighting news*/
+#highlight a{
+  text-decoration: none;
+}
+
+/*news list*/
+.darkbg{
+  background-color: #E3E3E3;
+}
+
+#list a{
+  text-decoration: none;
+  color: #000;
+}
+
+#list .card{
+  min-height: 330px;
+  max-height: 330px;
+}
+
+#list .card .card-img{
+  min-height: 150px;
+  max-height: 150px;
+}
+
+#list .card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+#list #newslist li a{
+  font-weight: 300px;
+}
+
+#list #newslist li a:hover{
+  color: #8C2213;
+}
+
+/*Responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #heading .col-md-10{
+    margin-top: -10px!important;
+    margin-bottom: -10px;
+  }
+  #additional{
+    padding-bottom: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*deshpradesh*/
+  #deshpradesh  img{
+    min-height: 110px;
+  }
+  /*vichar*/
+  #vichar{
+    margin-left: 18px;
+    margin-right: -18px;
+  }
+  /*blog*/
+  #blog{
+    margin-left: -16px;
+    margin-right: 16px;
+  }
+
+  /*artha*/
+  #artha{
+    margin-left: 1px;
+  }
+
+  /*pravidhi*/
+  #pravidhi{
+    margin-left: -16px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /*deshpradesh*/
+  #deshpradesh  img{
+    min-height: 110px;
+  }
+}
+
+/*Vishesh news*/
+#vishesh .card img{
+  min-height: 180px;
+  max-height: 180px;
+}
+
+#vishesh a{
+  text-decoration: none;
+  color: #000;
+}
+
+#vishesh .card{
+  min-height: 340px;
+}
+
+#vishesh .card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+#additional{
+  text-decoration: none;
+}
+
+/*charchama*/
+#hashtags button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#hashtags button{
+  background-color: #2D71AB;
+  border: 1px solid #2D71AB;
+  padding: 10px 15px 5px 15px;
+}
+
+#hashtags button:hover{
+  background-color: #B32240;
+  border: 1px solid #B32240;
+  padding: 10px 15px 5px 15px;
+  cursor: pointer;
+}
+
+#hashtags button:focus{
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*deshpradesh*/
+#deshpradesh a{
+  text-decoration: none;
+}
+
+#deshpradesh a img:hover{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+/*rajniti list*/
+.darkbg{
+  background-color: #E3E3E3;
+}
+
+#rajniti a{
+  text-decoration: none;
+  color: #000;
+}
+
+#rajniti .card{
+  min-height: 370px;
+  max-height: 370px;
+}
+
+#rajniti .card .card-img{
+  min-height: 210px;
+  max-height: 210px;
+}
+
+#rajniti .card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19)
+}
+
+#rajniti #newslist li a{
+  font-weight: 300px;
+}
+
+#rajniti #newslist li a:hover{
+  color: #8C2213;
+}
+
+/*vichar*/
+#vichar img{
+  border-radius: 50%;
+}
+
+#vichar a{
+  text-decoration: none;
+  color: #000;
+}
+
+#vichar a h6:hover{
+  text-decoration: none;
+}
+
+#vichar h6 {
+  font-weight: bold;
+}
+
+#vichar p{
+  font-size: 15px;
+}
+
+#vichar h6:hover, #vichar p:hover{
+  color: #004886;
+}
+
+/*blog*/
+#blog img{
+  border-radius: 50%;
+}
+
+#blog a{
+  text-decoration: none;
+  color: #000;
+}
+
+#blog a h6:hover{
+  text-decoration: none;
+}
+
+#blog h6 {
+  font-weight: bold;
+}
+
+#blog p{
+  font-size: 15px;
+}
+
+#blog h6:hover, #blog p:hover{
+  color: #004886;
+}
+
+/*samaj*/
+#samaj a{
+  text-decoration: none;
+  color: #000;
+}
+
+#samaj .card{
+  min-height: 340px;
+  max-height: 340px;
+}
+
+#samaj .card .card-img{
+  min-height: 210px;
+  max-height: 210px;
+}
+
+#samaj .card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19)
+}
+
+#samaj #newslist li a{
+  font-weight: 300px;
+}
+
+#samaj #newslist li a:hover{
+  color: #8C2213;
+}
+
+/*radio*/
+#radio .card img{
+  min-height: 200px;
+}
+
+#radio a{
+  text-decoration: none;
+  color: #000;
+}
+
+#radio .card{
+  min-height: 330px;
+}
+
+#radio .card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*artha*/
+#artha .card img{
+  min-height: 150px;
+  max-height: 150px;
+}
+
+#artha a{
+  text-decoration: none;
+  color: #000;
+}
+
+#artha .card{
+  min-height: 280px;
+}
+
+#artha .card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*pravidhi*/
+#pravidhi h6{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#pravidhi a img:hover{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+/*manoranjan*/
+#manoranjan .card img{
+  min-height: 170px;
+  max-height: 170px;
+}
+
+#manoranjan a{
+  text-decoration: none;
+  color: #000;
+}
+
+#manoranjan .card{
+  min-height: 280px;
+}
+
+#manoranjan .card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19)
+}
+
+#manoranjan #imglist a img:hover{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+#imglist h6{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*sadak*/
+#sadak .card img{
+  min-height: 170px;
+  max-height: 170px;
+}
+
+#sadak a{
+  text-decoration: none;
+  color: #000;
+}
+
+#sadak .card{
+  min-height: 360px;
+}
+
+#sadak .card:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 -4px 26px 0 rgba(0, 0, 0, 0.19)
+}
+
+#sadak a p{
+  font-size: 15px;
+}
+
+#sadak #imglist a img:hover{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+#imglist h6{
+  font-size: 15px;
+  font-weight: bold;
+}
+/*Footer*/
+footer .top-footer{
+  background-color: #575B5E;
+  font-size: 15px;
+}
+
+footer .footer-logo{
+  background-image: url("/user/sundar-karnali.jpg");
+  background-position:center;
+  height: 100px;
+  width: 90px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  overflow: hidden;
+}
+
+footer .top-footer .col-md-2 ul li a{
+  color: #C8CBCE;
+}
+
+footer .top-footer .col-md-2 ul li a:hover{
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer .top-footer .col-md-3 ul li{
+  margin-bottom: 10px;
+}
+
+footer .bottom-footer{
+  background-color: #3C3D3E;
+  font-size: 12.5px;
+  font-weight: 300px;
+  color: white;
+  padding-top: 10px;
+}
+
+footer .bottom-footer ul li{
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+footer .bottom-footer ul a{
+  padding-inline-start:0px;
+  padding:0px!important;
+}
+
+footer .bottom-footer ul li a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+footer .bottom-footer ul li a:hover{
+  color: #AFAFAF;
+}

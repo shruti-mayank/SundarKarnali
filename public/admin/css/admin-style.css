@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+
+#news-dropdown button{
+	font-size: 15px;
+}
+
+#news-dropdown .dropdown-menu{
+	background-color: #BABABA;
+}
+
+#news-dropdown .dropdown-item{
+	display: inline-block;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+#news-dropdown .dropdown-menu a{
+	text-decoration: none;
+	color: #000;
+}
+
+#news-dropdown .dropdown-menu a:hover, #news-dropdown .dropdown-menu a:focus{
+	border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+}
